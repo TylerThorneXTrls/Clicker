@@ -201,8 +201,9 @@ function common(){
 
 function addMultipler(){
 	if(money>=multiplierCost){
-		multiplierCost *= 1.2
 		money -= multiplierCost
+		multiplierCost *= 1.2
+
 
 		multiplier += 1
 		console.log(multiplier)
